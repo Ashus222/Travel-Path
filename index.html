@@ -15,17 +15,34 @@
     </head>
 
     <body>
-        <nav class="navbar navbar-light " style="font-size: 25px; font-family: sans-serif; background-color: whitesmoke;">
+        <nav class="navbar navbar-light " style="font-size: 30px; font-family: sans-serif; background-color: whitesmoke;">
 
-            <img src="https://codingblocks.com/assets/images/cb/cblogo.png" width="124" height="45"
+            <img src="image1.png"  width="130" height="85"
                  class="d-inline-block align-top" alt="">
-            Vis.js Tutorial
-        </nav>
+                Least time travel path project
+      
+            </nav>
         <div id="container">
-    </div>
-    <div>
-        <br>
-        <button type="button" class="btn btn-danger" id="generate-graph">Get New Graph</button>
-    </div>
+            <div id="mynetwork">
+            </div>
+            <div id="container2">
+                <span id="temptext2" style="width: 100%; text-align: center; font-size: x-large">
+                </span>
+                <span id="temptext" style="width: 100%; text-align: center; font-size: x-large">
+                    Red link represents bus travel time : <i class="fa fa-bus" aria-hidden="true" style="color: orange"></i><br>
+                    Green link represents flight travel time : <i class="fa fa-plane" aria-hidden="true" style="color: green"></i><br>
+                    Click on solve to get Solution !!
+                </span>
+                <div id="mynetwork2" style="display: none"></div>
+            </div>
+        </div>
+    
+        <div>
+            <br>
+            <button type="button" class="btn btn-danger" id="generate-graph">Get New Problem</button>
+            <br>
+            <button type="button" class="btn btn-success" id="solve">Solve</button>
+        </div>
     </body>
-</html>
+    
+    </html>
